@@ -4,7 +4,7 @@ Bu proje, https://www.automationexercise.com sitesine ait temel kullanıcı sena
 
 Proje Yapısı
 
-ceyda_testAutomationn/
+    ceyda_testAutomationn/
 
     ├── src/
 
