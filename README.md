@@ -6,29 +6,29 @@ Proje Yapısı
 
 ceyda_testAutomationn/
 
-├── src/
+    ├── src/
 
-│ ├── main/
+    │ ├── main/
 
-│ │ └── java/
+    │ │ └── java/
 
-│ │ └── pages/ → Page Object sınıfları burada yer alır
+    │ │ └── pages/ → Page Object sınıfları burada yer alır
 
-│ └── test/
+    │ └── test/
 
-│ ├── java/
+    │ ├── java/
 
-│ │ ├── stepdefs/ → Step Definition sınıfları burada
+    │ │ ├── stepdefs/ → Step Definition sınıfları burada
 
-│ │ └── runners/ → Test Runner sınıfı burada
+    │ │ └── runners/ → Test Runner sınıfı burada
 
-│ └── resources/
+    │ └── resources/
 
-│ └── features/ → .feature dosyaları burada
+    │ └── features/ → .feature dosyaları burada
 
-├── pom.xml → Maven bağımlılıkları burada tanımlanır
+    ├── pom.xml → Maven bağımlılıkları burada tanımlanır
 
-└── README.md → Proje açıklamaları (bu dosya)
+    └── README.md → Proje açıklamaları (bu dosya)
 
 
 Kullanılan Teknolojiler
@@ -40,12 +40,12 @@ Kullanılan Teknolojiler
     Maven
     Page Object Model (POM)
 
-    Teknolojilerin Versiyonları
+Teknolojilerin Versiyonları
     
     Java	17
-    Maven	3.8.x
+    Maven	17
     Selenium WebDriver	4.19.1
-    Cucumber JVM	7.15.0
+    Cucumber JVM	7.14.0
     TestNG	7.9.0
     WebDriverManager	5.7.0
     ChromeDriver	
