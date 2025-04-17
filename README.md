@@ -60,7 +60,7 @@ Kurulum ve Çalıştırma
     mvn clean install
 
     Testleri Çalıştır
-    runners paketindeki TestRunner.java dosyasını çalıştırarak tüm testleri çalıştırabilirsin.
+    runners paketindeki Runner.java dosyasını çalıştırarak tüm testleri çalıştırabilirsin.
 
  TEST SENARYOLARI
  
