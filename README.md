@@ -3,7 +3,6 @@ EGEMSOFT OTOMASYON CASE ÇALIŞMASI
 Bu proje, https://www.automationexercise.com sitesine ait temel kullanıcı senaryolarının otomasyon testlerini içermektedir. Testler Selenium, Cucumber, TestNG teknolojileri ile yazılmıştır.
 
 Proje Yapısı
-
 ceyda_testAutomationn
 │
 ├── src
