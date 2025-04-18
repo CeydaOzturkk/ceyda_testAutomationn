@@ -6,49 +6,28 @@ Proje Yapısı
 ceyda_testAutomationn
 
     src
-
         main
-
             java
-
         test
-
             java
-
                 pages
-
                     HomePage.java
-
                     ProductPage.java
-
                     CartPage.java
-
                     CheckoutPage.java
-
                     OrderOnayPage.java
-
-                    utils
-
-                        BrowserUtils.java
-
+                 utils
+                        DriverManeger.java
                 stepdefs
-
-                    SignupTestSteps.java
-
+                    AutomationSteps.java
                     OrderTestSteps.java
-
-                    Hooks.java
-
+                    SignupTestSteps.java
+                    TestSteps.java
             resources
-
                 features
-
                     automationExercise.feature
-
     pom.xml
-
     README.m
-
 
 
 Kullanılan Teknolojiler
