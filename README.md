@@ -12,7 +12,6 @@ ceyda_testAutomationn
 │   └── test
 │       └── java
 │           ├── pages                    #POM
-
 │           │   ├── CartPage.java           
 │           │   ├── CheckoutPage.java       
 │           │   ├── HomePage.java            
@@ -20,25 +19,20 @@ ceyda_testAutomationn
 │           │   ├── OrderOnayPage.java       
 │           │   ├── ProductPage.java         
 │           │   ├── SignupPage.java 
-
 │           │── utils
 │           │       └── DriverManeger.java   # WebDriver yönetimi 
 │           │
-
 │           └── stepdefs                 # Cucumber Step Definition sınıfları
 │               ├── AutomationSteps.java     
 │               ├── OrderTestSteps.java      
 │               ├── SignupTestSteps.java    
 │               └── TestSteps.java           
 │
-
 ├── resources
 │   └── features
 │       └── automationExercise.feature   # Cucumber test senaryoları
 │
-
 ├── pom.xml                             #bağımlılıklar burada
-
 └── README.md                           # Proje hakkında bilgiler ve açıklamalar
 
 
