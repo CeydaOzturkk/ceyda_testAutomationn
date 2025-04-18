@@ -2,38 +2,45 @@ EGEMSOFT OTOMASYON CASE ÇALIŞMASI
 
 Bu proje, https://www.automationexercise.com sitesine ait temel kullanıcı senaryolarının otomasyon testlerini içermektedir. Testler Selenium, Cucumber, TestNG teknolojileri ile yazılmıştır.
 
-PROJE YAPISI
+Proje Yapısı
 
 ceyda_testAutomationn
-│
-├── src
-│   ├── main
-│   │   └── java
-│   └── test
-│       └── java
-│           ├── pages                    #POM
-│           │   ├── CartPage.java           
-│           │   ├── CheckoutPage.java       
-│           │   ├── HomePage.java            
-│           │   ├── LoginPage.java           
-│           │   ├── OrderOnayPage.java       
-│           │   ├── ProductPage.java         
-│           │   ├── SignupPage.java 
-│           │── utils
-│           │       └── DriverManeger.java   # WebDriver yönetimi 
-│           │
-│           └── stepdefs                 # Cucumber Step Definition sınıfları
-│               ├── AutomationSteps.java     
-│               ├── OrderTestSteps.java      
-│               ├── SignupTestSteps.java    
-│               └── TestSteps.java           
-│
-├── resources
-│   └── features
-│       └── automationExercise.feature   # Cucumber test senaryoları
-│
-├── pom.xml                             #bağımlılıklar burada
-└── README.md                           # Proje hakkında bilgiler ve açıklamalar
+
+
+ src
+ 
+     main
+     
+         java
+         
+             test
+             
+                 java
+                 
+                    pages                    #POM
+                        CartPage.java           
+                        CheckoutPage.java       
+                        HomePage.java            
+                        LoginPage.java           
+                        OrderOnayPage.java       
+                        ProductPage.java         
+                        SignupPage.java 
+                        
+                  utils
+                        DriverManeger.java   # WebDriver yönetimi 
+
+                 stepdefs                 # Cucumber Step Definition sınıfları
+                     AutomationSteps.java     
+                     OrderTestSteps.java      
+                     SignupTestSteps.java    
+                     TestSteps.java           
+
+                resources
+                    features
+                         automationExercise.feature   # Cucumber test senaryoları
+                         
+                 pom.xml                             #bağımlılıklar burada
+                 README.md                           # Proje hakkında bilgiler ve açıklamalar
 
 
 
