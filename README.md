@@ -4,31 +4,35 @@ Bu proje, https://www.automationexercise.com sitesine ait temel kullanıcı sena
 
 Proje Yapısı
 
-    ceyda_testAutomationn/
+   ceyda_testAutomationn/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   └── test/
+│       ├── java/
+│       │   ├── pages/
+│       │   │   ├── CartPage.java
+│       │   │   ├── CheckoutPage.java
+│       │   │   ├── HomePage.java
+│       │   │   ├── LoginPage.java
+│       │   │   ├── OrderOnayPage.java
+│       │   │   ├── ProductPage.java
+│       │   │   ├── SignupPage.java
+│       │   │── utils/
+│       │   │       └── DriverManeger.java
+│       │   └── runner/
+│       │   │   ├── Runner.java
+│       │   └── stepdefs/
+│       │   │   ├── AutomationSteps.java
+│       │   │   ├── OrderTestSteps.java
+│       │   │   └── SignupTestSteps.java
+│       │   │   └── TestSteps.java
+│       └── resources/
+│           └── features/
+│               └── automationExercise.feature
+├── pom.xml
+└── README.md
 
-    ├── src/
-
-    │ ├── main/
-
-    │ │ └── java/
-
-    │ │ └── pages/ → Page Object sınıfları burada yer alır
-
-    │ └── test/
-
-    │ ├── java/
-
-    │ │ ├── stepdefs/ → Step Definition sınıfları burada
-
-    │ │ └── runners/ → Test Runner sınıfı burada
-
-    │ └── resources/
-
-    │ └── features/ → .feature dosyaları burada
-
-    ├── pom.xml → Maven bağımlılıkları burada tanımlanır
-
-    └── README.md → Proje açıklamaları (bu dosya)
 
 
 Kullanılan Teknolojiler
