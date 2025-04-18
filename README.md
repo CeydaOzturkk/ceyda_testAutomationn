@@ -3,32 +3,51 @@ EGEMSOFT OTOMASYON CASE ÇALIŞMASI
 Bu proje, https://www.automationexercise.com sitesine ait temel kullanıcı senaryolarının otomasyon testlerini içermektedir. Testler Selenium, Cucumber, TestNG teknolojileri ile yazılmıştır.
 
 Proje Yapısı
+ceyda_testAutomationn
 
-ceyda_testAutomationn/
-── src/── main/ ── java/
-   pages/
-      CartPage.java
-      CheckoutPage.java
-      HomePage.java
-      LoginPage.java
-      OrderOnayPage.java
-      ProductPage.java
-      SignupPage.java
-   utils/
-      DriverManeger.java
-   runner/
-      Runner.java
-   stepdefs/
-      AutomationSteps.java
-      OrderTestSteps.java
-      SignupTestSteps.java
-      TestSteps.java
-   resources/
-      features/
-      automationExercise.feature
-── pom.xml
-── README.md
+    src
 
+        main
+
+            java
+
+        test
+
+            java
+
+                pages
+
+                    HomePage.java
+
+                    ProductPage.java
+
+                    CartPage.java
+
+                    CheckoutPage.java
+
+                    OrderOnayPage.java
+
+                    utils
+
+                        BrowserUtils.java
+
+                stepdefs
+
+                    SignupTestSteps.java
+
+                    OrderTestSteps.java
+
+                    Hooks.java
+
+            resources
+
+                features
+
+                    automationExercise.feature
+
+    pom.xml
+
+    README.m
 
 
 
