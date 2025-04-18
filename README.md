@@ -11,11 +11,13 @@ ceyda_testAutomationn
         test
             java
                 pages
-                    HomePage.java
-                    ProductPage.java
                     CartPage.java
                     CheckoutPage.java
+                    HomePage.java
+                    LoginPage.java
                     OrderOnayPage.java
+                    ProductPage.java
+                    SignupPage.java
                  utils
                         DriverManeger.java
                 stepdefs
