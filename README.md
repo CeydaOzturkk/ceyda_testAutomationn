@@ -4,34 +4,31 @@ Bu proje, https://www.automationexercise.com sitesine ait temel kullanıcı sena
 
 Proje Yapısı
 
-   ceyda_testAutomationn/
-├── src/
-│   ├── main/
-│   │   └── java/
-│   └── test/
-│       ├── java/
-│       │   ├── pages/
-│       │   │   ├── CartPage.java
-│       │   │   ├── CheckoutPage.java
-│       │   │   ├── HomePage.java
-│       │   │   ├── LoginPage.java
-│       │   │   ├── OrderOnayPage.java
-│       │   │   ├── ProductPage.java
-│       │   │   ├── SignupPage.java
-│       │   │── utils/
-│       │   │       └── DriverManeger.java
-│       │   └── runner/
-│       │   │   ├── Runner.java
-│       │   └── stepdefs/
-│       │   │   ├── AutomationSteps.java
-│       │   │   ├── OrderTestSteps.java
-│       │   │   └── SignupTestSteps.java
-│       │   │   └── TestSteps.java
-│       └── resources/
-│           └── features/
-│               └── automationExercise.feature
-├── pom.xml
-└── README.md
+ceyda_testAutomationn/
+── src/── main/ ── java/
+   pages/
+      CartPage.java
+      CheckoutPage.java
+      HomePage.java
+      LoginPage.java
+      OrderOnayPage.java
+      ProductPage.java
+      SignupPage.java
+   utils/
+      DriverManeger.java
+   runner/
+      Runner.java
+   stepdefs/
+      AutomationSteps.java
+      OrderTestSteps.java
+      SignupTestSteps.java
+      TestSteps.java
+   resources/
+      features/
+      automationExercise.feature
+── pom.xml
+── README.md
+
 
 
 
